@@ -1,0 +1,21 @@
+int foo (int n, int s) {
+	int h;
+	h = n+s;
+	return h;
+}
+
+int main() {
+ int s;
+ int n;
+ int a;
+ s = 1;
+ n = 1;
+ a = 1;
+ while (n <= 10) {
+ s = s + n*n;
+ n = n + 1;
+ }
+  print_int(s);
+
+  s = foo(s, n);
+}

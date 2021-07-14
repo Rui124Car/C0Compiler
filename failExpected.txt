@@ -1,0 +1,13 @@
+int main() {
+ int s;
+ 
+ n=scan_int();
+ 
+ print_int(n);
+
+ print_int(s);
+
+}
+
+
+

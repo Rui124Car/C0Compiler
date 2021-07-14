@@ -1,0 +1,12 @@
+int main() {
+	int n;
+	int s;
+
+	n=1;
+	s=scan_int();
+
+	if(s > n)
+		print_int(s);
+	else
+		print_int(n);
+}

@@ -1,0 +1,16 @@
+int foo (int n, int s) {
+	int a;
+	a = 42;
+	return a;
+}
+
+int main() {
+ int s;
+ int n;
+ s = 1;
+ n = 1;
+ 
+ s = foo (n, s);
+ print_int(s);
+
+}
